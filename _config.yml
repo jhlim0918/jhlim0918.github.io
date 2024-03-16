@@ -1,5 +1,5 @@
-title: Jeonghoon ("Jay") Lim'
-Description: Welcome! This is my webpage to introduce myself and my research projects 
+title: Jeonghoon ("Jay") Lim
+Description: Welcome to my personal webpage! This is to introduce myself and my research projects 
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one

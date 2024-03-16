@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="background-image-section">
-  <!-- You can add content here if you want it to appear on top of the background image -->
+  Image 
 </div>
 
 I was born and grew up in Seoul, South Korea. My journey to astronomy began in 2012 when I was admitted to Chungnam National University and chose astronomy as my major. I got Bachelor's and Master's degrees there before coming to the U.S in 2020. I'm now a Ph.D student at Iowa State University, Ames, IA and currently working on my research with prof. Jake Simon and his group members. 

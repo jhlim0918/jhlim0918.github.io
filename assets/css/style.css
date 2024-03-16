@@ -3,8 +3,3 @@
 
 @import 'jekyll-theme-cayman';
 
-.banner {
-    background-image: url('/assets/images/banner-background.jpeg');
-    background-size: cover; /* This ensures the image covers the entire banner */
-    background-position: center; /* This centers the image in the banner */
-}

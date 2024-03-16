@@ -2,11 +2,4 @@
 ---
 
 @import 'jekyll-theme-cayman';
-
-.background-image-section {
-    background-image: url('/assets/images/banner-background.jpeg'); /* Update with your image path */
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0; /* Adjust the padding as needed */
-  }
   

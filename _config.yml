@@ -1,6 +1,7 @@
 title: Jeonghoon ("Jay") Lim
 description: Welcome to my personal webpage! This is to introduce myself and my research projects 
 show_downloads: true 
+is_project_page: true
 github:
   pdf_url: https://github.com/jhlim0918/jhlim0918.github.io/blob/main/docs/Lim_CV_Jan_2024.pdf
 

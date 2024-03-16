@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I was born and grew up in Seoul, capital city of South Korea. My journey to astronomy began in 2012 when I was admitted to Chungnam National University and chose astronomy as my major. I got Bachelor's and Master's degrees there before coming to the U.S in 2020. I'm now a Ph.D student at Iowa State University, Ames, IA and currently working on my research with prof. Jake Simon ([link to his webpage](https://www.jbsimon.com/)) and his group members. 
+I was born and grew up in Seoul, capital city of South Korea. My journey to astronomy began in 2012 when I was admitted to Chungnam National University and chose astronomy as my major. I got Bachelor's and Master's degrees there before coming to the U.S in 2020. I'm now a Ph.D student at Iowa State University, Ames, IA and currently working on my research with prof. Jake Simon and his group members. 
 
 # Research
 

@@ -2,7 +2,8 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+I was born and grew up in Seoul, capital city of South Korea. My journey to astronomy began in 2012 when I was admitted to Chungnam National University and chose astronomy as my major. I got Bachelor's and Master's degrees there before coming to the U.S in 2020. I'm now a Ph.D student at Iowa State University, Ames, IA and currently working on my research with prof. Jake Simon and his group members. 
+
 
 [Link to another page](./another-page.html).
 
@@ -10,9 +11,11 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Research 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Conditions for Planetesimal Formation by streaming instability in turbulent protoplanetary disks
+
+My primary research focuses on how planetesimals are born in protoplanetary disks. Planetesimals are the building blocks of fully fledged planets. Despite their importance, how exactly they form is one of the outstanding problems in planet formation theory. In this particular project, I study the effect of turbulence on streaming instability and planetesimal formation. To do this, I perform three-dimensional shearing box simulations with externally forced turbulence in order to build conditions of planetesimal formation in terms of size and abundance of solid objects and strength of turbulence. I have shown that in the presence of the forced turbulence, planetesimal formation via the streaming instability requires much more solid abundance than the case without the turbulence, which indicates that the turbulence makes planetesimal formation very difficult. Click [this link](https://turb-si-interactive-zcrit-plot-vykz33h7mq-uc.a.run.app/) to play with the interactive plot that shows surface plot of $Z_{crit}$ (critical value of solid-to-gas density ratio above which planetesimals form) as a function of both size of solid particles ($\tau_s$) and turbulence strength ($\alpha_D$). The work has been submitted to The Astrophysical Journal and posted on arXiv.
 
 ## Header 2
 

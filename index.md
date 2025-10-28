@@ -31,15 +31,7 @@ The streaming instability is an important mechanism not only for planetesimal fo
 
 ## Dust-gas Dynamics Driven by the Streaming Instabiltiy 
 
-<div style="display:flex; align-items:flex-start; gap:20px;">
-  <div style="flex:1.1;">
-    <p>The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.</p>
-    <p>This research provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. The figure shows the dust density field from unstratified (top) and stratified (bottom) simulations, illustrating the similarity in the resulting structure. Both cases exhibit comparable filamentary morphology, with the stratified simulations showing more vertical confinement due to stellar gravity.</p>
-  </div>
+<img align="right" src="assets/images/unstrat_strat_rhop.png" width="45%">
+The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.
 
-  <div style="flex:1.6;">
-    <img src="assets/images/unstrat_strat_rhop.png"
-         style="width:25%; border-radius:6px;">
-  </div>
-</div>
-
+[This research](https://ui.adsabs.harvard.edu/abs/2025ApJ...993...12L/abstract) provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. The figure shows the dust density field from unstratified (top) and stratified (bottom) simulations, illustrating the similarity in the resulting structure. Both cases exhibit comparable filamentary morphology, with the stratified simulations showing more vertical confinement due to stellar gravity.

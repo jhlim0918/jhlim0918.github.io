@@ -33,9 +33,9 @@ The streaming instability is an important mechanism not only for planetesimal fo
 
 <div style="display:flex; align-items:center; gap:20px;">
   <div style="flex:1;">
-    <p>The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.</p>
+    <p>The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.
 
-    <p>This research provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. The figure shows the dust density field from unstratified (top) and stratified (bottom) simulations, illustrating the similarity in the resulting structure. Both cases exhibit comparable filamentary morphology, with the stratified simulations showing more vertical confinement due to stellar gravity.</p>
+    This research provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. The figure shows the dust density field from unstratified (top) and stratified (bottom) simulations, illustrating the similarity in the resulting structure. Both cases exhibit comparable filamentary morphology, with the stratified simulations showing more vertical confinement due to stellar gravity.</p>
   </div>
 
   <div style="flex:1;">

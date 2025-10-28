@@ -39,7 +39,7 @@ The streaming instability is an important mechanism not only for planetesimal fo
 
   <div style="flex:1.6;">
     <img src="assets/images/unstrat_strat_rhop.png"
-         style="width:100%; border-radius:6px;">
+         style="width:25%; border-radius:6px;">
   </div>
 </div>
 

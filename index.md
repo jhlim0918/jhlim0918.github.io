@@ -25,7 +25,7 @@ The plot on the right shows the planetesimal formation conditions for both lamin
 <img align="right" src="assets/images/unstrat_strat_rhop.png" 
           style="height: 400px; margin-left: 20px; margin-bottom: 5px; border-radius: 6px;">
 
-The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.
+The streaming instability (SI) is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.
 
 [This research](https://ui.adsabs.harvard.edu/abs/2025ApJ...993...12L/abstract) provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. 
 

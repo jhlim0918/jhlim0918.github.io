@@ -14,16 +14,42 @@
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.github.poster_url }}" class="btn">View my most recent poster</a>
-      <a href="{{site.ads_url}}" class="btn">View ADS</a>
-      {% if site.show_downloads %}
-        <a href="{{ site.github.pdf_url}}" class="btn">View my CV  </a>
-      {% endif %}
-    </header>
+<header class="page-header" role="banner">
+  <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+  <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+
+  {% if site.email %}
+    <a href="mailto:{{ site.email }}" class="btn">
+      <i class="fa-solid fa-envelope"></i> Email
+    </a>
+  {% endif %}
+
+  {% if site.google_scholar %}
+    <a href="{{ site.google_scholar }}" class="btn" target="_blank" rel="noopener">
+      <i class="fa-brands fa-google-scholar"></i> Scholar
+    </a>
+  {% endif %}
+
+  {% if site.orcid %}
+    <a href="{{ site.orcid }}" class="btn" target="_blank" rel="noopener">
+      <i class="fa-brands fa-orcid"></i> ORCID
+    </a>
+  {% endif %}
+
+  {% if site.ads %}
+    <a href="{{ site.ads }}" class="btn" target="_blank" rel="noopener">
+      <i class="fa-solid fa-star"></i> ADS
+    </a>
+  {% endif %}
+
+  {% if site.cv_url %}
+    <a href="{{ site.cv_url }}" class="btn" target="_blank" rel="noopener">
+      <i class="fa-solid fa-file-pdf"></i> CV
+    </a>
+  {% endif %}
+</header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}

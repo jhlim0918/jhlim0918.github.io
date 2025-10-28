@@ -14,8 +14,8 @@ I was born and raised in Seoul, South Korea. My journey into astronomy began in 
 
 My primary research focuses on planetesimal formation within protoplanetary disks. Planetesimals, roughly 1 to 100 km in size, are the fundamental building blocks of planets. They are thought to form through the gravitational collapse of millimeter- to centimeter-sized dust grains.
 
-Among several proposed mechanisms, the streaming instability is a leading candidate because it can efficiently concentrate dust to the point of grabitational collapse. In this project series, I investigate the physical conditions under which the streaming instability can form planetesimals, focusing on the role of grain size, dust abundance, and turbulence strength.
+Among several proposed mechanisms, the streaming instability is a leading candidate because it can efficiently concentrate dust to the point of grabitational collapse (termed 'strong clumping'). In this project series, I investigate the physical conditions under which the streaming instability can form planetesimals, focusing on the role of grain size, dust abundance, and turbulence strength.
 
 Using 3D simulations, I examined both [laminar](https://ui.adsabs.harvard.edu/abs/2025arXiv250918270L/abstract) and [turbulent](https://ui.adsabs.harvard.edu/abs/2024ApJ...969..130L/abstract) disk environments, establishing planetesimal formation criteria across a wide range of protoplanetary disk conditions.
 
-
+## 

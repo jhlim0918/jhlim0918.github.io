@@ -19,32 +19,38 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
+      {% if site.location_name %}
+        <a href="{{ site.location_url }}" class="btn" target="_blank" rel="noopener">
+        <i class="fa-solid fa-location-dot"></i> {{ site.location_name }}, {{ site.location_city }}
+        </a>
+      {% endif %}
+      
       {% if site.email %}
         <a href="mailto:{{ site.email }}" class="btn">
           <i class="fa-solid fa-envelope"></i> Email
         </a>
       {% endif %}
 
-  {% if site.google_scholar %}
-    <a href="{{ site.google_scholar }}" class="btn" target="_blank" rel="noopener">
-      <i class="fa-brands fa-google-scholar"></i> Google Scholar
-    </a>
-  {% endif %}
+      {% if site.google_scholar %}
+        <a href="{{ site.google_scholar }}" class="btn" target="_blank" rel="noopener">
+        <i class="fa-brands fa-google-scholar"></i> Google Scholar
+        </a>
+      {% endif %}
 
       {% if site.orcid %}
-        <a href="{{ site.orcid }}" class="btn" target="_blank" rel="noopener">
+          <a href="{{ site.orcid }}" class="btn" target="_blank" rel="noopener">
           <i class="fa-brands fa-orcid"></i> ORCID
         </a>
       {% endif %}
 
-{% if site.ads %}
-  <a href="{{ site.ads }}" class="btn" target="_blank" rel="noopener">
-    <img src="https://ui.adsabs.harvard.edu/help/img/bbb_assets/ads_partial_logo_dark_background.svg"
+      {% if site.ads %}
+        <a href="{{ site.ads }}" class="btn" target="_blank" rel="noopener">
+        <img src="https://ui.adsabs.harvard.edu/help/img/bbb_assets/ads_partial_logo_dark_background.svg"
          alt="ADS"
          style="height: 16px; vertical-align: middle;" />
-    ADS
-  </a>
-{% endif %}
+        ADS
+        </a>
+      {% endif %}
 
       {% if site.cv_url %}
         <a href="{{ site.cv_url }}" class="btn" target="_blank" rel="noopener">

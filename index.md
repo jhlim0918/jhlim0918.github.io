@@ -22,11 +22,21 @@ The plot on the right shows the planetesimal formation conditions for both lamin
 
 ## Dust-gas Dynamics Driven by the Streaming Instabiltiy 
 
-<img align="right" src="assets/images/unstrat_strat_rhop.png"
-     style="height: 250px; margin-left: 20px; margin-bottom: 10px; border-radius: 6px;">
+<div style="display:flex; gap:24px; align-items:flex-start;">
 
-The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.
+  <!-- Text column -->
+  <div style="flex: 1.1;">
+    <p>The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.</p>
 
-This research provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. The plot on the right shows the dust density field from unstratified (top) and stratified (bottom) simulations, illustrating the similarity in the resulting structure. Both cases exhibit comparable filamentary morphology, with the stratified simulations showing more vertical confinement due to stellar gravity.
+    <p>This research provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks. The figure shows the dust density field from unstratified (top) and stratified (bottom) simulations, illustrating the similarity in the resulting structure. Both cases exhibit comparable filamentary morphology, with the stratified simulations showing more vertical confinement due to stellar gravity.</p>
+  </div>
+
+  <!-- Image column -->
+  <div style="flex: 1.5;">
+    <img src="assets/images/unstrat_strat_rhop.png"
+         style="width:100%; border-radius:6px;">
+  </div>
+
+</div>
 
 

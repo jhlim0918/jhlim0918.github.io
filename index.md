@@ -20,4 +20,10 @@ Among several proposed mechanisms, the streaming instability is a leading candid
 
 The plot on the right shows the planetesimal formation conditions for both laminar (black dots) and turbulent (solid lines) cases from my 3D simulations. Above the lines, the streaming instability can efficiently concentrate solids and produce planetesimals.
 
-## 
+## Dust-gas Dynamics Driven by the Streaming Instabiltiy 
+
+The streaming instability is an important mechanism not only for planetesimal formation, but also for driving the coupled dynamics of dust and gas near the disk midplane. In this work, I investigate the characteristics of SI-driven dynamics in vertically stratified protoplanetary disks and systematically compare them with unstratified simulations (i.e., without stellar vertical gravity) across a range of radial pressure gradients.
+
+This research provides a comprehensive view of streaming instability behavior and demonstrates that, within the parameter space explored, the instability behaves fundamentally the same in unstratified disks and in the midplane region of stratified disks.
+
+

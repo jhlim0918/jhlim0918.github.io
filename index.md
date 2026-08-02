@@ -5,7 +5,9 @@ layout: default
 ![Dubrovnik, Croatia](/assets/images/banner-background.jpeg)
 _Dubrovnik, Croatia_
 
-I was born and raised in Seoul, South Korea. My journey into astronomy began in 2012 when I entered Chungnam National University in Daejeon, South Korea, and chose astronomy as my major. I completed both my Bachelor’s and Master’s degrees there before moving to the United States in 2020. I am currently a Ph.D. student in the Department of Physics and Astronomy at Iowa State University, working with Prof. Jake Simon and our research group. Together, we explore the physics of planet formation using advanced numerical simulations.
+I am a Nevada Center for Astrophysics Postdoctoral Fellow at the University of Nevada, Las Vegas. My research is in theoretical and computational planet formation: I use high-resolution numerical simulations to study the dynamics of dust and gas in protoplanetary disks, and the conditions under which the streaming instability concentrates solids strongly enough to form planetesimals.
+
+I completed my Ph.D. in astrophysics at Iowa State University in 2026, advised by Prof. Jacob B. Simon. Before that, I earned my B.S. and M.S. in astronomy at Chungnam National University in Daejeon, South Korea, where I grew up.
 
 
 # Research

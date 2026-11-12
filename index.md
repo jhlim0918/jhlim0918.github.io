@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Jeonghoon ("Jay") Lim
 ---
 
 # About

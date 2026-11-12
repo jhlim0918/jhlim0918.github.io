@@ -1,0 +1,135 @@
+<svg class="bp" viewBox="0 0 1000 490" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bp-title bp-desc">
+  <title id="bp-title">From dust to planets and brown dwarfs</title>
+  <desc id="bp-desc">Two routes to planetary bodies. Bottom-up: micron dust grains stick into millimetre-to-centimetre pebbles, a growth barrier stops further sticking, the streaming instability concentrates pebbles until self-gravity forms 1 to 100 km planetesimals, which grow into planets. Top-down: massive young disks become gravitationally unstable and spiral arms collapse into clumps that become giant planets and brown dwarfs. Dust in the spiral arms can also collapse into planetary embryos, which join the planetesimal-to-planet stage. Observational tests come from ALMA images of young disks, the Kuiper Belt, and the spins of planetary and brown-dwarf companions.</desc>
+  <style>
+    .bp text { font-family: Inter, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1d2533; }
+    .bp .lbl { font-size: 14px; font-weight: 600; text-anchor: middle; }
+    .bp .sub { font-size: 12.8px; fill: #5a6577; text-anchor: middle; }
+    .bp .note { font-size: 12.5px; fill: #5a6577; text-anchor: middle; }
+    .bp .lane { font-size: 12.5px; font-weight: 700; letter-spacing: 0.08em; }
+    .bp .lane-sub { font-size: 13.5px; fill: #5a6577; }
+    .bp .band-t { font-size: 15px; font-weight: 700; text-anchor: middle; }
+    .bp .band-s { font-size: 12.6px; fill: #1d2533; text-anchor: middle; }
+    .bp .bar { font-size: 12.5px; fill: #b42318; text-anchor: middle; font-weight: 500; }
+    .bp .obs-t { font-size: 13.8px; font-weight: 700; fill: #3b4fa0; }
+    .bp .obs-s { font-size: 12.8px; fill: #3d4657; }
+    .bp .arrow { stroke: #8892a2; stroke-width: 1.6; fill: none; }
+  </style>
+  <defs>
+    <marker id="bp-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8892a2"/>
+    </marker>
+    <marker id="bp-head-gi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+    <radialGradient id="bp-planet" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#7fc3d9"/><stop offset="60%" stop-color="#2f7fa3"/><stop offset="100%" stop-color="#1b4f6b"/>
+    </radialGradient>
+    <radialGradient id="bp-bd" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#e0a46a"/><stop offset="65%" stop-color="#9a5a2a"/><stop offset="100%" stop-color="#5e3315"/>
+    </radialGradient>
+    <radialGradient id="bp-gp" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#f1d6a4"/><stop offset="65%" stop-color="#c9935a"/><stop offset="100%" stop-color="#8a5b2e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== Lane 1: bottom-up ===== -->
+  <text x="24" y="36"><tspan class="lane" fill="#0f766e">BOTTOM-UP</tspan><tspan class="lane-sub" dx="10">dust grows into planetesimals, then planets</tspan></text>
+
+  <!-- dust grains -->
+  <g fill="#8a7f72">
+    <circle cx="68" cy="113" r="2.4"/><circle cx="83" cy="108" r="2"/><circle cx="77" cy="124" r="2.6"/>
+    <circle cx="93" cy="119" r="2.1"/><circle cx="64" cy="129" r="1.9"/><circle cx="90" cy="132" r="2.4"/>
+    <circle cx="101" cy="111" r="1.7"/><circle cx="58" cy="118" r="1.6"/>
+  </g>
+  <text class="lbl" x="80" y="172">Dust grains</text>
+  <text class="sub" x="80" y="189">~1 µm</text>
+
+  <line class="arrow" x1="114" y1="120" x2="204" y2="120" marker-end="url(#bp-head)"/>
+  <text class="note" x="159" y="110">sticking</text>
+
+  <!-- pebbles -->
+  <g fill="#7a6e60">
+    <circle cx="230" cy="116" r="7.5"/><circle cx="249" cy="124" r="6"/><circle cx="234" cy="133" r="5"/>
+  </g>
+  <text class="lbl" x="240" y="172">Pebbles</text>
+  <text class="sub" x="240" y="189">mm – cm</text>
+
+  <!-- growth barrier + SI band -->
+  <text class="bar" x="430" y="74">growth barrier: bouncing · fragmentation · radial drift</text>
+  <line class="arrow" x1="266" y1="120" x2="304" y2="120" marker-end="url(#bp-head)"/>
+  <rect x="310" y="86" width="240" height="68" rx="10" fill="#e7f4f2" stroke="#0f766e" stroke-width="1.6"/>
+  <text class="band-t" x="430" y="111" fill="#0f766e">Streaming instability</text>
+  <text class="band-s" x="430" y="129">concentrates pebbles until</text>
+  <text class="band-s" x="430" y="144">their self-gravity takes over</text>
+  <line class="arrow" x1="552" y1="120" x2="604" y2="120" marker-end="url(#bp-head)"/>
+
+  <!-- planetesimal (contact binary) -->
+  <g fill="#8c7b6a" stroke="#6b5c4d" stroke-width="1">
+    <ellipse cx="630" cy="121" rx="15" ry="11.5"/>
+    <ellipse cx="653" cy="118" rx="10.5" ry="9"/>
+  </g>
+  <text class="lbl" x="640" y="172">Planetesimals</text>
+  <text class="sub" x="640" y="189">1 – 100 km</text>
+
+  <line class="arrow" x1="676" y1="120" x2="828" y2="120" marker-end="url(#bp-head)"/>
+  <text class="note" x="752" y="96">collisions,</text>
+  <text class="note" x="752" y="110">pebble accretion</text>
+
+  <!-- planet -->
+  <circle cx="870" cy="120" r="30" fill="url(#bp-planet)"/>
+  <text class="lbl" x="870" y="172">Planets</text>
+  <text class="sub" x="870" y="189">10³ – 10⁵ km</text>
+
+  <!-- connector: dust collapsing in GI spiral arms forms planetary embryos (joins the planetesimal-to-planet stage) -->
+  <path d="M552,256 H744 Q752,256 752,248 V126" stroke="#b45309" stroke-width="1.5" stroke-dasharray="5 4" fill="none" marker-end="url(#bp-head-gi)"/>
+  <text class="note" x="764" y="214" style="text-anchor:start">dust in spiral arms can</text>
+  <text class="note" x="764" y="230" style="text-anchor:start">form planetary embryos</text>
+
+  <!-- ===== Lane 2: top-down ===== -->
+  <text x="24" y="232"><tspan class="lane" fill="#b45309">TOP-DOWN</tspan><tspan class="lane-sub" dx="10">massive young disks fragment under their own gravity</tspan></text>
+
+  <!-- disk with spiral arms -->
+  <ellipse cx="130" cy="282" rx="80" ry="25" fill="#fbecd6" stroke="#d9a35f" stroke-width="1.2"/>
+  <path d="M130,282 C160,272 195,276 204,286" stroke="#c07a2c" stroke-width="2" fill="none"/>
+  <path d="M130,282 C100,292 65,288 56,278" stroke="#c07a2c" stroke-width="2" fill="none"/>
+  <path d="M130,282 C150,292 175,297 190,295" stroke="#c07a2c" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <path d="M130,282 C110,272 85,267 70,269" stroke="#c07a2c" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <circle cx="130" cy="282" r="6" fill="#f2b84b" stroke="#d48f1c"/>
+  <text class="lbl" x="130" y="334">Massive young disk</text>
+  <text class="sub" x="130" y="351">youngest (Class 0/I) systems</text>
+
+  <line class="arrow" x1="216" y1="280" x2="304" y2="280" marker-end="url(#bp-head)"/>
+  <rect x="310" y="246" width="240" height="68" rx="10" fill="#fdf3e4" stroke="#b45309" stroke-width="1.6"/>
+  <text class="band-t" x="430" y="271" fill="#b45309">Gravitational instability</text>
+  <text class="band-s" x="430" y="289">spiral arms collapse into</text>
+  <text class="band-s" x="430" y="304">bound, spinning clumps</text>
+  <line class="arrow" x1="552" y1="280" x2="814" y2="280" marker-end="url(#bp-head)"/>
+  <text class="note" x="683" y="299">gaseous clumps contract</text>
+
+  <!-- brown dwarf + giant planet, with spin arrow -->
+  <circle cx="846" cy="280" r="22" fill="url(#bp-bd)"/>
+  <path d="M822,266 A28,10 0 0 1 870,266" stroke="#5a6577" stroke-width="1.4" fill="none" marker-end="url(#bp-head)"/>
+  <circle cx="902" cy="285" r="14" fill="url(#bp-gp)"/>
+  <text class="lbl" x="872" y="334">Brown dwarfs &amp; giant planets</text>
+  <text class="sub" x="872" y="351">what sets their mass and spin?</text>
+
+  <!-- ===== Lane 3: observations ===== -->
+  <line x1="24" y1="378" x2="976" y2="378" stroke="#dde2ea"/>
+  <text x="24" y="402"><tspan class="lane" fill="#3b4fa0">OBSERVATIONAL TESTS</tspan></text>
+
+  <rect x="24" y="414" width="304" height="68" rx="8" fill="#eef1fa" stroke="#c9d0ea"/>
+  <text class="obs-t" x="40" y="436">Young disks (ALMA)</text>
+  <text class="obs-s" x="40" y="455">rings, polarization, grain sizes,</text>
+  <text class="obs-s" x="40" y="471">turbulence, dust masses</text>
+
+  <rect x="348" y="414" width="304" height="68" rx="8" fill="#eef1fa" stroke="#c9d0ea"/>
+  <text class="obs-t" x="364" y="436">Solar System (Kuiper Belt)</text>
+  <text class="obs-s" x="364" y="455">binary planetesimals, Arrokoth,</text>
+  <text class="obs-s" x="364" y="471">size distribution</text>
+
+  <rect x="672" y="414" width="304" height="68" rx="8" fill="#eef1fa" stroke="#c9d0ea"/>
+  <text class="obs-t" x="688" y="436">Exoplanets &amp; companions</text>
+  <text class="obs-s" x="688" y="455">spins of planetary and</text>
+  <text class="obs-s" x="688" y="471">brown-dwarf companions</text>
+</svg>
